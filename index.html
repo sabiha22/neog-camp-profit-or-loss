@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Stocks Predictor</h1>
+    <main>
+        <label class="input-label" for="initial-price">Initial Price
+            <input type="number" id="initial-price" class="input" placeholder="Enter Initial Price of the stock here" />
+        </label>
+        <label class="input-label" for="stock-quantity">Number of stock
+            <input type="number" id="stock-quantity" class="input" placeholder="Enter number of stock bought" />
+        </label>        
+        <label class="input-label" for="current-price">Current Price
+            <input type="number" id="current-price" class="input" placeholder="Enter current Price of the stock here" />
+        </label>        
+        <button id="submit">Calculate!</button>
+        <div id="output"></div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -4,7 +4,7 @@ const current= document.querySelector("#current-price");
 const submit_ans= document.querySelector('#submit');
 const output= document.querySelector("#output");
 
-submit_ans.addEventListener("click", submitHandler())
+submit_ans.addEventListener("click", submitHandler)
 
 function submitHandler(){
     var ip= Number(initial.value);
